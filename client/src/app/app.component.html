@@ -1,0 +1,186 @@
+<app-nav-bar></app-nav-bar>
+<div id="names">
+  <div class="container-md" >
+    <div class="row align-items-center">
+      <div class="col">
+
+        <div id="homePg">
+          <div id="con1">
+            <button type="button"
+                    class="btn btn-primary"
+                    (click)="GetAll()">Get All Data</button>
+            <div id="getid">
+              <form (ngSubmit)="GetById(f)" #f="ngForm">
+
+                <input
+                    type="number"
+                    id="inputnumber"
+                    name="dataNo"
+                    ngModel
+                    required
+                    >
+
+                <button
+                    class="btn btn-secondary"
+                    type="submit"
+                    [disabled]="!f.valid"
+                    >Get by id</button>
+
+              </form>
+            </div>
+
+            <div id="deleteid">
+              <form (ngSubmit)="DeleteById(d)" #d="ngForm">
+
+                <input
+                    type="number"
+                    id="inputnumber2"
+                    name="deleteNo"
+                    ngModel
+                    required
+                    >
+
+                <button
+                    class="btn btn-danger"
+                    type="submit"
+                    [disabled]="!d.valid"
+                    >Delete User</button>
+
+              </form>
+            </div>
+
+            <div id="addid">
+              <form (ngSubmit)="PostUser(a)" #a="ngForm">
+                <label>Id Address</label>
+                <input
+                    type="number"
+                    id="idaddress"
+                    name="idaddress"
+                    ngModel
+                    required
+                    >
+                <label>Line One</label>
+                <input
+                    type="text"
+                    id="line1"
+                    name="line1"
+                    ngModel
+                    required
+                    >
+
+                 <label>Line Second</label>
+                <input
+                    type="text"
+                    id="line2"
+                    name="line2"
+                    ngModel
+                    required
+                    >
+
+                <label>Postcode</label>
+                <input
+                    type="text"
+                    id="postcode"
+                    name="postcode"
+                    ngModel
+                    required
+                    >
+
+                <label>City</label>
+                <input
+                    type="text"
+                    id="city"
+                    name="city"
+                    ngModel
+                    required
+                    >
+
+                <label>Country</label>
+                <input
+                    type="text"
+                    id="country"
+                    name="country"
+                    ngModel
+                    required
+                    >
+
+                <label>Phone</label>
+                <input
+                    type="text"
+                    id="phone"
+                    name="phone"
+                    ngModel
+                    required
+                    >
+                <label>Email</label>
+                <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    ngModel
+                    required
+                    >
+
+                <label>User Id</label>
+                <input
+                    type="number"
+                    id="iduser"
+                    name="iduser"
+                    ngModel
+                    required
+                    >
+                <label>First name</label>
+                <input
+                    type="text"
+                    id="first_name"
+                    name="first_name"
+                    ngModel
+                    required
+                    >
+                <label>Last name</label>
+                <input
+                    type="text"
+                    id="last_name"
+                    name="last_name"
+                    ngModel
+                    required
+                    >
+
+
+
+                <button
+                    class="btn btn-success"
+                    type="submit"
+                    [disabled]="!a.valid"
+                    >Add User</button>
+
+              </form>
+            </div>
+
+
+
+
+            <button type="button" class="btn btn-warning">update</button>
+          </div>
+
+
+          <div id="con2">
+            <ul >
+              <li *ngFor="let i of users">
+                {{i.id}} -
+                {{i.first_name}}
+                {{i.last_name}}
+                - {{i.address.postcode}}
+                - {{i.address.phone}}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+

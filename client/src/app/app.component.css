@@ -1,0 +1,38 @@
+#names{
+  margin-top: 120px;
+
+}
+
+#homePg{
+  display: flex;
+}
+
+#con1{
+
+}
+
+#con1 button{
+  margin: 20px 10px;
+
+}
+
+#getid{
+  text-align: center;
+}
+
+#addid{
+display:initial;
+padding:3px;
+border: solid 1px black;
+}
+
+#addid form input{ margin: 10px;}
+#addid form label{ label:2px}
+
+
+#con2{
+  border: solid .9px black;
+  border-radius: 9px;
+  width: 500px;
+  margin-left: 150px;
+}

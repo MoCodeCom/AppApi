@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "line_one": "15 Maple Avenue",
+        "line_second": "Flat 3C",
+        "postcode": "W1A 1AB",
+        "city": "London",
+        "country": "United Kingdom",
+        "phone": "+44 20 7123 4567",
+        "email": "alice.smith@example.com"
+      },
+      {
+        "id": 2,
+        "line_one": "28 Oak Street",
+        "line_second": "Suite 201",
+        "postcode": "EC1V 9RJ",
+        "city": "London",
+        "country": "United Kingdom",
+        "phone": "+44 20 8345 6789",
+        "email": "bob.jones@example.com"
+      },
+      {
+        "id": 3,
+        "line_one": "7 Pine Road",
+        "line_second": "Apartment 10A",
+        "postcode": "SW1A 2BC",
+        "city": "London",
+        "country": "United Kingdom",
+        "phone": "+44 20 9456 3210",
+        "email": "emily.davis@example.com"
+      },
+      {
+        "id": 4,
+        "line_one": "10 Birch Lane",
+        "line_second": "House 5D",
+        "postcode": "SE1 9XY",
+        "city": "London",
+        "country": "United Kingdom",
+        "phone": "+44 20 7789 4321",
+        "email": "david.wilson@example.com"
+      }
+]

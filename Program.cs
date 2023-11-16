@@ -14,7 +14,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddScoped(typeof(IUserGenericRepository<>), typeof(UserGenericRepository<>));
 //builder.Services.AddDbContext<DbContextApi>(ops => ops.UseSqlite(builder.Configuration.GetConnectionString("Default")));
-builder.Services.AddDbContext<DbContextApi>(ops => ops.UseNpgsql(builder.Configuration.GetConnectionString("Postgre")));
+//builder.Services.AddDbContext<DbContextApi>(ops => ops.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
+builder.Services.AddDbContext<DbContextApi>(ops => ops.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
 

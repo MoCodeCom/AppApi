@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/mohammedalfadhel/Desktop/VS/AppApi/appapi/wwwroot/3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets/3rdpartylicenses.txt"
+    },
+    {
+      "Id": "/Users/mohammedalfadhel/Desktop/VS/AppApi/appapi/wwwroot/assets/images/testapiapp.png",
+      "PackagePath": "staticwebassets/assets/images/testapiapp.png"
+    },
+    {
+      "Id": "/Users/mohammedalfadhel/Desktop/VS/AppApi/appapi/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/mohammedalfadhel/Desktop/VS/AppApi/appapi/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/mohammedalfadhel/Desktop/VS/AppApi/appapi/wwwroot/main.d7005c15c5edc0c6.js",
+      "PackagePath": "staticwebassets/main.d7005c15c5edc0c6.js"
+    },
+    {
+      "Id": "/Users/mohammedalfadhel/Desktop/VS/AppApi/appapi/wwwroot/polyfills.4709fd955acb2242.js",
+      "PackagePath": "staticwebassets/polyfills.4709fd955acb2242.js"
+    },
+    {
+      "Id": "/Users/mohammedalfadhel/Desktop/VS/AppApi/appapi/wwwroot/runtime.7ae29a296d479790.js",
+      "PackagePath": "staticwebassets/runtime.7ae29a296d479790.js"
+    },
+    {
+      "Id": "/Users/mohammedalfadhel/Desktop/VS/AppApi/appapi/wwwroot/styles.d60a4bef62c641c8.css",
+      "PackagePath": "staticwebassets/styles.d60a4bef62c641c8.css"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.appapi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.build.appapi.props",
+      "PackagePath": "build\\appapi.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildMultiTargeting.appapi.props",
+      "PackagePath": "buildMultiTargeting\\appapi.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildTransitive.appapi.props",
+      "PackagePath": "buildTransitive\\appapi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
